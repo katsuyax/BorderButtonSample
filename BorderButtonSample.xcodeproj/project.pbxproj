@@ -1,0 +1,310 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		878FAFDD1DEE698800915FBB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 878FAFDC1DEE698800915FBB /* AppDelegate.swift */; };
+		878FAFDF1DEE698800915FBB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 878FAFDE1DEE698800915FBB /* ViewController.swift */; };
+		878FAFE21DEE698800915FBB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 878FAFE01DEE698800915FBB /* Main.storyboard */; };
+		878FAFE41DEE698800915FBB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 878FAFE31DEE698800915FBB /* Assets.xcassets */; };
+		878FAFE71DEE698800915FBB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 878FAFE51DEE698800915FBB /* LaunchScreen.storyboard */; };
+		878FAFEF1DEE6C6800915FBB /* BorderButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 878FAFEE1DEE6C6800915FBB /* BorderButton.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		878FAFD91DEE698800915FBB /* BorderButtonSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BorderButtonSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		878FAFDC1DEE698800915FBB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		878FAFDE1DEE698800915FBB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		878FAFE11DEE698800915FBB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		878FAFE31DEE698800915FBB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		878FAFE61DEE698800915FBB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		878FAFE81DEE698800915FBB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		878FAFEE1DEE6C6800915FBB /* BorderButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BorderButton.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		878FAFD61DEE698800915FBB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		878FAFD01DEE698800915FBB = {
+			isa = PBXGroup;
+			children = (
+				878FAFDB1DEE698800915FBB /* BorderButtonSample */,
+				878FAFDA1DEE698800915FBB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		878FAFDA1DEE698800915FBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				878FAFD91DEE698800915FBB /* BorderButtonSample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		878FAFDB1DEE698800915FBB /* BorderButtonSample */ = {
+			isa = PBXGroup;
+			children = (
+				878FAFDC1DEE698800915FBB /* AppDelegate.swift */,
+				878FAFDE1DEE698800915FBB /* ViewController.swift */,
+				878FAFEE1DEE6C6800915FBB /* BorderButton.swift */,
+				878FAFE01DEE698800915FBB /* Main.storyboard */,
+				878FAFE31DEE698800915FBB /* Assets.xcassets */,
+				878FAFE51DEE698800915FBB /* LaunchScreen.storyboard */,
+				878FAFE81DEE698800915FBB /* Info.plist */,
+			);
+			path = BorderButtonSample;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		878FAFD81DEE698800915FBB /* BorderButtonSample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 878FAFEB1DEE698800915FBB /* Build configuration list for PBXNativeTarget "BorderButtonSample" */;
+			buildPhases = (
+				878FAFD51DEE698800915FBB /* Sources */,
+				878FAFD61DEE698800915FBB /* Frameworks */,
+				878FAFD71DEE698800915FBB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BorderButtonSample;
+			productName = BorderButtonSample;
+			productReference = 878FAFD91DEE698800915FBB /* BorderButtonSample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		878FAFD11DEE698800915FBB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = CrossBridge;
+				TargetAttributes = {
+					878FAFD81DEE698800915FBB = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 878FAFD41DEE698800915FBB /* Build configuration list for PBXProject "BorderButtonSample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 878FAFD01DEE698800915FBB;
+			productRefGroup = 878FAFDA1DEE698800915FBB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				878FAFD81DEE698800915FBB /* BorderButtonSample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		878FAFD71DEE698800915FBB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				878FAFE71DEE698800915FBB /* LaunchScreen.storyboard in Resources */,
+				878FAFE41DEE698800915FBB /* Assets.xcassets in Resources */,
+				878FAFE21DEE698800915FBB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		878FAFD51DEE698800915FBB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				878FAFDF1DEE698800915FBB /* ViewController.swift in Sources */,
+				878FAFDD1DEE698800915FBB /* AppDelegate.swift in Sources */,
+				878FAFEF1DEE6C6800915FBB /* BorderButton.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		878FAFE01DEE698800915FBB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				878FAFE11DEE698800915FBB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		878FAFE51DEE698800915FBB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				878FAFE61DEE698800915FBB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		878FAFE91DEE698800915FBB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		878FAFEA1DEE698800915FBB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		878FAFEC1DEE698800915FBB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BorderButtonSample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = biz.crossbridge.BorderButtonSample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		878FAFED1DEE698800915FBB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BorderButtonSample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = biz.crossbridge.BorderButtonSample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		878FAFD41DEE698800915FBB /* Build configuration list for PBXProject "BorderButtonSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				878FAFE91DEE698800915FBB /* Debug */,
+				878FAFEA1DEE698800915FBB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		878FAFEB1DEE698800915FBB /* Build configuration list for PBXNativeTarget "BorderButtonSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				878FAFEC1DEE698800915FBB /* Debug */,
+				878FAFED1DEE698800915FBB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 878FAFD11DEE698800915FBB /* Project object */;
+}
